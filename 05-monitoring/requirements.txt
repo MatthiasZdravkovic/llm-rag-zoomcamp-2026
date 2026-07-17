@@ -1,0 +1,9 @@
+streamlit
+pandas
+openai
+python-dotenv
+psycopg
+tqdm
+minsearch
+pydantic
+requests
