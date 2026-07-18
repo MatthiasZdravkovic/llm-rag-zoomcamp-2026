@@ -1,0 +1,19 @@
+[project]
+name = "dlt-workshop-homework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dlt[duckdb]>=1.29.0",
+    "fastmcp>=3.4.4",
+    "ibis-framework>=12.0.0",
+    "logfire>=4.37.0",
+    "marimo>=0.23.14",
+    "minsearch>=0.2.0",
+    "openai>=2.46.0",
+    "pyarrow>=25.0.0",
+    "pydantic-ai>=2.13.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]

@@ -180,3 +180,20 @@ pyrightconfig.json
 
 *.db*
 models
+
+# dlt-specific ignores
+# secrets and credentials
+secrets.toml
+*.secrets.toml
+# ignore pinned profile name
+.dlt/profile-name
+# ignore default state dir (pipeline state, working files)
+.dlt/state
+# ignore default data dir (local destination data)
+.dlt/data
+# ignore duckdb
+*.duckdb
+*.wal
+
+dlt-workshop/.venv
+dlt-workshop/.dlt/secrets.toml
